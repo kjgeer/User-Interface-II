@@ -118,7 +118,7 @@ h2{
     justify-content: flex-start;
     align-items: center;
 }
-
+/*projects*/
 .projects p{
     text-align: center;
     width: 50%;
@@ -168,23 +168,38 @@ h2{
     justify-content:space-around;
     margin-left: 12%;
 }
-
+/*footer*/
 footer a{  
-    font-size: 5vw; 
+    font-size: 3vw; 
 }
 
 footer{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    min-height: 84vh;
+    justify-content: space-around;
+    padding-top: 5%;
 }
 /*contact page*/
 .contact a{
     font-size: 25px;
-     display: flex;
-     flex-direction: column;
-     margin: 20px;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
  }
+
+/*tablet view*/
+
+@media(max-width:800px){
+    nav a{
+        font-size: 4.5vw;
+    }
+}
+
+/*phone view*/
+
+@media(max-width:500px){
+    .pflex p{
+        font-size: 4vw;
+    }
+}
